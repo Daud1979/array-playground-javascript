@@ -15,10 +15,10 @@
         minima quo corrupti quis totam.</p>
     <script>
         let textoSpan = document.querySelector("#lorem").textContent;
-        console.log("Texto antes de transformarlo: ", textoSpan)
+        console.log("Texto antes de transformarlo: ",textoSpan);
 
         // Tú código aquí: busca una función JavaScript que te permita transformar el texto en 'textoSpan' en mayúsculas; y asignarlo a la variable 'textoMaysuculas'
-        let textoMaysuculas;
+        let textoMaysuculas =textoSpan.toLocaleUpperCase();
 
         // No modificar a partir de aquí
         document.querySelector("#lorem").textContent = textoMaysuculas;

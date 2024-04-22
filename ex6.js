@@ -14,13 +14,15 @@
 
 
 let listaPeces = ["Dory", "Nemo", "Shipho", "Estrella"];
-let pezBuscado = "Estrella";
+let pezBuscado = "Estdrella";
 let pezEncontrado = false;
 let i = 0;
-
-while (!pezEncontrado && i < listaPeces.length - 1) {
+console.log(listaPeces.length);
+while (!pezEncontrado && i < listaPeces.length ) {
+   
   if (listaPeces[i] == pezBuscado) {
     pezEncontrado = true;
+    
   }
   i++;
 }

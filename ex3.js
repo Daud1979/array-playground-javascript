@@ -28,3 +28,9 @@ for (let i = 0; i <= muchos_peces.length; i++) {
 /**
  * BONUS: Este ejercicio no sigue la convención de JavaScript camelCase. ¿Podrías modificar el nombre de todas las variables para adecuarlas a la norma?
  */
+let muchosPeces = ["Dory", "Nemo", "Shipho", "Estrella"];
+
+for (let i = 0; i <= muchosPeces.length-1; i++) {
+  let siguientePez = muchosPeces[i];
+  console.log("Pez siguiente: " + siguientePez);
+}

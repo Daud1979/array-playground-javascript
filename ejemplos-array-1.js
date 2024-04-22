@@ -26,9 +26,9 @@ console.log("Tamaño del array: " + razas_gatos.length)
 let info_humano = ["Max", "USA", 33, false]
 
 // Incluso, un array puede contener..otros arrays!
-let matriz = [[1,2,3], [4,5,6]]
+let matriz = [['uno','dos','tres'], [4,5,6]]
 console.log(matriz[0]) // Primer elemento del array 'matriz'
-console.log(matriz[0][1]) // Segundo elemento del primer elemento del array ¡matriz'
+console.log(matriz[1][1]) // Segundo elemento del primer elemento del array ¡matriz'
 
 
 
